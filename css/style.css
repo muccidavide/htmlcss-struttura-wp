@@ -7,6 +7,7 @@
 
 body{
     margin: 0 10rem;
+    background-color: black;
 }
 /* Utility */
 
@@ -15,10 +16,14 @@ body{
     display: table;
     clear: both;
 }
+ 
+/********
+ Header 
+ **********/
 
 #header_site{
     background-color: aqua;
-    height: 200px;
+    height: 150px;
 }
 
 .logo_site{
@@ -31,3 +36,39 @@ body{
     background-color: blue;
     height: 40%;
 }
+
+/*******
+ Main 
+ *******/
+
+ .section_img{
+     margin: 2rem 0;
+     height: 400px;
+     background-color: red;
+ }
+
+ .section_blog{
+     height: 300px;
+ }
+
+ .header_blog{
+     background-color: darkolivegreen;
+     height: 50%;
+     margin: 2rem 0;
+ }
+
+ .section_blog > aside{
+     background-color: lawngreen;
+     width: 25%;
+ }
+
+ .section_center{
+     background-color: cornflowerblue;
+     width: 40%;
+     margin: 0 5%;
+ }
+
+ aside, .section_center{
+     float: left;
+     height: 400px;
+ }
