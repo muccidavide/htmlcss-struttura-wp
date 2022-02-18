@@ -43,21 +43,18 @@ body{
 
  .section_img{
      margin: 2rem 0;
-     height: 400px;
+     height: 500px;
      background-color: red;
  }
 
- .section_blog{
-     height: 300px;
- }
 
  .header_blog{
      background-color: darkolivegreen;
-     height: 50%;
+     height: 150px;
      margin: 2rem 0;
  }
 
- .section_blog > aside{
+ .container_articles > aside{
      background-color: lawngreen;
      width: 25%;
  }
@@ -70,5 +67,12 @@ body{
 
  aside, .section_center{
      float: left;
-     height: 400px;
+     height: 500px;
+ }
+
+ /* Footer */
+ #footer_site{
+     background-color: violet;
+     margin-top: 2rem;
+     height: 100px;
  }
