@@ -5,3 +5,29 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0 10rem;
+}
+/* Utility */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header_site{
+    background-color: aqua;
+    height: 200px;
+}
+
+.logo_site{
+    background-color: lightblue;
+    height: 60%;
+    width: 30%;
+}
+
+.nav_site{
+    background-color: blue;
+    height: 40%;
+}
